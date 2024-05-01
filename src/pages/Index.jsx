@@ -1,4 +1,4 @@
-import { Box, Container, Flex, Heading, Image, SimpleGrid, Text, VStack, useBreakpointValue } from "@chakra-ui/react";
+import { Box, Container, Flex, Heading, Image, SimpleGrid, Text, VStack, useBreakpointValue, AspectRatio } from "@chakra-ui/react";
 import { FaInstagram, FaTwitter, FaFacebookF } from "react-icons/fa";
 
 const Index = () => {
@@ -75,6 +75,7 @@ const Index = () => {
           <Text mt={2}>Awards Won</Text>
         </Box>
       </SimpleGrid>
+      <VideoSection />
       <Box bg="gray.800" color="white" py={10}>
         <VStack spacing={3}>
           <Heading as="h2" size="lg">
@@ -86,6 +87,19 @@ const Index = () => {
         </VStack>
       </Box>
     </Container>
+  );
+};
+
+const VideoSection = () => {
+  return (
+    <SimpleGrid columns={{ base: 1, md: 2 }} gap={6} p={10}>
+      <AspectRatio ratio={16 / 9}>
+        <iframe title="Creator Video 1" src="https://www.youtube.com/embed/dQw4w9WgXcQ" allowFullScreen />
+      </AspectRatio>
+      <AspectRatio ratio={16 / 9}>
+        <iframe title="Creator Video 2" src="https://www.youtube.com/embed/dQw4w9WgXcQ" allowFullScreen />
+      </AspectRatio>
+    </SimpleGrid>
   );
 };
 
