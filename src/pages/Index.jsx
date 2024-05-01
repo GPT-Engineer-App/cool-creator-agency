@@ -11,6 +11,9 @@ const Index = () => {
           Welcome to Cool Creator Agency!
         </Text>
       </Box>
+      <Box w="100%" p={4}>
+        <Image src="https://images.unsplash.com/photo-1603784768735-e353d10b87c1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxkZXNpZ258ZW58MHx8fHwxNzE0NTIxNjQ2fDA&ixlib=rb-4.0.3&q=80&w=1080" alt="Creative Design" objectFit="cover" />
+      </Box>
       <Box bg="gray.800" color="white" py={10}>
         <VStack spacing={3}>
           <Heading as="h1" size="xl">
