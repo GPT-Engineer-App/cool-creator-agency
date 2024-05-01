@@ -56,6 +56,20 @@ const Index = () => {
         </Flex>
       </SimpleGrid>
 
+      <SimpleGrid columns={{ base: 1, md: 3 }} gap={6} p={10}>
+        <Box bg="green.500" color="white" p={5} borderRadius="md">
+          <Heading size="xl">150+</Heading>
+          <Text mt={2}>Projects Completed</Text>
+        </Box>
+        <Box bg="blue.500" color="white" p={5} borderRadius="md">
+          <Heading size="xl">300+</Heading>
+          <Text mt={2}>Happy Clients</Text>
+        </Box>
+        <Box bg="purple.500" color="white" p={5} borderRadius="md">
+          <Heading size="xl">20+</Heading>
+          <Text mt={2}>Awards Won</Text>
+        </Box>
+      </SimpleGrid>
       <Box bg="gray.800" color="white" py={10}>
         <VStack spacing={3}>
           <Heading as="h2" size="lg">
