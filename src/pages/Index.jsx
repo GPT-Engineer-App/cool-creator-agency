@@ -8,7 +8,7 @@ const Index = () => {
     <Container maxW="container.xl" p={0}>
       <Box bg="teal.500" w="100%" p={4} color="white">
         <Text fontSize="xl" textAlign="center">
-          Welcome to Cool Creator Agency!
+          Welcome to Nanopower!
         </Text>
       </Box>
       <Box w="100%" p={4}>
@@ -17,7 +17,7 @@ const Index = () => {
       <Box bg="gray.800" color="white" py={10}>
         <VStack spacing={3}>
           <Heading as="h1" size="xl">
-            Cool Creator Agency
+            Nanopower
           </Heading>
           <Text fontSize="lg">Empowering creativity across the globe</Text>
         </VStack>
