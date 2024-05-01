@@ -12,7 +12,7 @@ const Index = () => {
         </Text>
       </Box>
       <Box w="100%" p={4}>
-        <Image src="https://images.unsplash.com/photo-1581349437894-07a00e63e8c9?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80" alt="Creative Workspace" objectFit="cover" />
+        <Image src="path/to/your/custom/photo.jpg" alt="Creative Workspace" objectFit="cover" />
       </Box>
       <Box bg="gray.800" color="white" py={10}>
         <VStack spacing={3}>
