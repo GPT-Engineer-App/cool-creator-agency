@@ -12,7 +12,7 @@ const Index = () => {
         </Text>
       </Box>
       <Box w="100%" p={4}>
-        <Image src="https://images.unsplash.com/photo-1603784768735-e353d10b87c1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxkZXNpZ258ZW58MHx8fHwxNzE0NTIxNjQ2fDA&ixlib=rb-4.0.3&q=80&w=1080" alt="Creative Design" objectFit="cover" />
+        <Image src="https://images.unsplash.com/photo-1581349437894-07a00e63e8c9?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80" alt="Creative Workspace" objectFit="cover" />
       </Box>
       <Box bg="gray.800" color="white" py={10}>
         <VStack spacing={3}>
@@ -25,7 +25,7 @@ const Index = () => {
 
       <SimpleGrid columns={{ base: 1, md: 3 }} gap={6} p={10}>
         <Flex direction="column" align="center" bg="gray.100" p={5} borderRadius="md">
-          <Image borderRadius="full" boxSize="150px" src="https://images.unsplash.com/photo-1687575635557-a3f3ed535b56?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxjcmVhdGl2ZSUyMHByb2Zlc3Npb25hbHxlbnwwfHx8fDE3MTQ1MjE2NDR8MA&ixlib=rb-4.0.3&q=80&w=1080" alt="Creative Professional" />
+          <Image borderRadius="full" boxSize="150px" src="https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80" alt="Creative Professional" />
           <Text mt={4} fontSize="xl" fontWeight="bold">
             John Doe
           </Text>
@@ -38,7 +38,7 @@ const Index = () => {
         </Flex>
 
         <Flex direction="column" align="center" bg="gray.100" p={5} borderRadius="md">
-          <Image borderRadius="full" boxSize="150px" src="https://images.unsplash.com/photo-1618477388954-7852f32655ec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHx3ZWIlMjBkZXZlbG9wZXJ8ZW58MHx8fHwxNzE0NTIxNjQ1fDA&ixlib=rb-4.0.3&q=80&w=1080" alt="Web Developer" />
+          <Image borderRadius="full" boxSize="150px" src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80" alt="Web Developer" />
           <Text mt={4} fontSize="xl" fontWeight="bold">
             Jane Smith
           </Text>
@@ -51,7 +51,7 @@ const Index = () => {
         </Flex>
 
         <Flex direction="column" align="center" bg="gray.100" p={5} borderRadius="md">
-          <Image borderRadius="full" boxSize="150px" src="https://images.unsplash.com/photo-1432888622747-4eb9a8efeb07?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxtYXJrZXRpbmclMjBzcGVjaWFsaXN0fGVufDB8fHx8MTcxNDUyMTY0NXww&ixlib=rb-4.0.3&q=80&w=1080" alt="Marketing Specialist" />
+          <Image borderRadius="full" boxSize="150px" src="https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80" alt="Marketing Specialist" />
           <Text mt={4} fontSize="xl" fontWeight="bold">
             Alice Johnson
           </Text>
